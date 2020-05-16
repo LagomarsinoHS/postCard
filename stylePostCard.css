@@ -1,0 +1,72 @@
+body {
+    background-color: black;
+}
+
+#contenedor {
+    width: 600px;
+    height: 400px;
+    margin-top: 7%;
+    margin-left: 15%;
+    background-color: white;
+}
+
+#header {
+    width: 100%;
+    height: 25%;
+}
+
+#headIzq {
+    display: block;
+    float: left;
+}
+
+#headIzq>h1 {
+    margin: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#headDer {
+    display: block;
+    float: right;
+}
+
+#headDer>img {
+    width: 100px;
+    height: 100px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+#midIzq {
+    width: 50%;
+    margin: 34px;
+    display: block;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#midDer {
+    width: 38%;
+    display: block;
+    float: right;
+    margin-top: 27px;
+}
+
+#midDer >input[placeholder] {
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#bottom >button{
+    background-color: darkgray;
+    color: black;
+    display: block;
+    width: 39%;
+    margin: 175px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 2px;
+    
+}
